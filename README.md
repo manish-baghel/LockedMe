@@ -1,6 +1,6 @@
 #LockedMe - Simplilearn Phase I Assessment
 
-A prototype application implementing an file locker idea.
+A prototype application implementing a file locker idea.
 
 ##Technologies Used
 
@@ -38,9 +38,11 @@ A prototype application implementing an file locker idea.
 This project utilizes DAO and Service Model pattern of a Java Application.
 
 ##Hierarchy For All Packages
+
 ###Package Hierarchies:
 
     com.lockedme.dao, com.lockedme.dao.impl, com.lockedme.exception, com.lockedme.main, com.lockedme.model, com.lockedme.service, com.lockedme.service.impl 
+
 
 ###Class Hierarchy
 
