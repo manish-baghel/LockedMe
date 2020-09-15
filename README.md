@@ -63,5 +63,6 @@ This project utilizes DAO and Service Model pattern of a Java Application.
 ## Docs
 For Complete Docs please use docs folder in the repository.
 
+Or visit: [Docs Website](https://manish-baghel.github.io/LockedMe/index.html)
 
 
