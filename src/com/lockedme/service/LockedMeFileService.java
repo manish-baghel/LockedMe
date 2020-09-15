@@ -1,5 +1,18 @@
 package com.lockedme.service;
 
-public class LockedMeFileService {
+import java.util.List;
+
+import com.lockedme.exception.LockedMeException;
+import com.lockedme.model.LockedMeFile;
+
+public interface LockedMeFileService {
+	
+	public LockedMeFile addFile(LockedMeFile file) throws LockedMeException;
+	public LockedMeFile deleteFile(LockedMeFile file) throws LockedMeException;
+	public LockedMeFile searchFileByName(String name) throws LockedMeException;
+	public LockedMeFile searchFileById(int id) throws LockedMeException;
+	
+	public List<LockedMeFile> getAllFiles() throws LockedMeException;
+	public List<LockedMeFile> getFilesByext(String ext) throws LockedMeException;
 
 }
